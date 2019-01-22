@@ -4,14 +4,14 @@
 # Brief Contents
 - The Reverse Cipher
 - The Caesar Cipher
-- Hacking the Ceasar Cipher with Brute-Force
+- Hacking the Caesar Cipher with Brute-Force
 - Encrypting with Transposition Cipher
 - Decrypting with the Transposition Cipher
 - Programming a Program to Test Your Program
 - Encrypting and Decrypting Files
-- Detecting English Proframmatically
+- Detecting English Programmatically
 - Hacking the transposition Cipher
-- A Modular Arithmetic Module fot the Afiine Cipher
+- A Modular Arithmetic Module for the Afiine Cipher
 - Programming the Affine Cipher
 - Hacking The Afiine Cipher
 - Programming the Simple Substitution Cipher
@@ -29,3 +29,6 @@ The reiverse cipher encrypts a message by printing it in reverse order. So "Hell
 
 2) ### The Caesar Cipher
 The reverse cipher encrypts the same way. But the Ceaser cipher uses keys, which encrypt the message differently depending on which key is used. The keys for the Caesar cipher are the integers from 0 to 25. Even if a cryptanalyst knows the Caesar cipher was used, that alone doesn't give them enough information to break the cipher. The must also know the key.
+
+3) ### Hacking The Caesar Cipher With Brute-Force
+We can hack the Caesar cipher by using a cryptanalytic technique called brute-force. A brute-force attack tries every possible decryption key for a cipher.
