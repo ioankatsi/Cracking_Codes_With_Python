@@ -4,7 +4,6 @@
 print('----------------------------------------------\n')
 print('|      Caesar Cipher  With Brute-Force        |\n')
 print('----------------------------------------------\n')
-print('Hello, What would you like to do? :')
 
 #The encryption/decryption key:
 messageInput = 'Please enter the message to be decrypted :\n'
