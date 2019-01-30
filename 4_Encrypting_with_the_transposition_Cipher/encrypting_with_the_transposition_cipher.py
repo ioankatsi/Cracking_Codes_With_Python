@@ -1,9 +1,6 @@
 # Transposition Cipher
 # https://www.nostarch.com/crackingcode/ (BSD Licensed)
 
-#The encryption/decryption key:
-
-
 def main():
     messageInput = 'Please enter the message to be encrypted :\n'
     myMessage = input(messageInput)
