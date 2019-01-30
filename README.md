@@ -1,5 +1,5 @@
 # Cracking Codes With Python
-### These chapters are from Cracking Codes With Python Book written from Al Sweigart. <br>Every Chapter, generally alternate between a Cipher and how You can hack that cipher. <br>The Book can be found [Here](https://nostarch.com/crackingcodes).
+### These chapters are from Cracking Codes With Python Book written by Al Sweigart. <br>Every Chapter, generally alternate between a Cipher and how You can hack that cipher. <br>The Book can be found [Here](https://nostarch.com/crackingcodes).
 
 # Brief Contents
 - The Reverse Cipher
