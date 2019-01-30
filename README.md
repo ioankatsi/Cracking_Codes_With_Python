@@ -32,3 +32,6 @@ The reverse cipher encrypts the same way. But the Caesar cipher uses keys, which
 
 3) ### Hacking The Caesar Cipher With Brute-Force
 We can hack the Caesar cipher by using a cryptanalytic technique called brute-force. A brute-force attack tries every possible decryption key for a cipher.
+
+4) ### Encrypting with Transposition Cipher
+The transposition cipher is more difficult to brute force because the number of possible keys depends on the message's length. There are many different types of transposition ciphers, including the rail fence cipher, route cipher, Myszkowski transposition cipher. This example covers a simple transposition cipher called the ***columnar transposition cipher***
