@@ -4,7 +4,7 @@
 def main():
     messageInput = 'Please enter the message to be encrypted :\n'
     myMessage = input(messageInput)
-    myKey = 8
+    myKey = 3
 
     ciphertext = encryptMessage(myKey, myMessage)
 
