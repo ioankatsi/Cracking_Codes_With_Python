@@ -37,10 +37,13 @@ We can hack the Caesar cipher by using a cryptanalytic technique called brute-fo
 The transposition cipher is more difficult to brute force because the number of possible keys depends on the message's length. There are many different types of transposition ciphers, including the rail fence cipher, route cipher, Myszkowski transposition cipher. This example covers a simple transposition cipher called the ***columnar transposition cipher***
 
 5) ### Decrypting with the Transposition Cipher
-Steps for decrypting the Transposition Cipher : 
+Steps for decrypting the Transposition Cipher :
   * Calculate the number of columns you need by dividing the length of the message by the key and then rounding up.
   * Draw boxes in columns and rows. Use the number of columns and you calculated before. The number of rows is the same as the key
   * Calculate the number of boxes to shade in by taking the total number of boxes and subtracking the length of the ciphertext message.
   * Shade in the number of boxes you calculated in step 3 at the bottom of the rightmost column.
   * Fill in the characters of the ciphertext starting at the top row and going from left to right. Skip any of the shaded boxes.
   * Get the plaintext by reading the leftmost column from top to bottom, and continuing to do the same in each column.
+
+6) ### Programming A Program to Test Your Program
+You can not be absolutely sure the programs always work unless you test the ***encryptMessage()*** and ***decryptMessage()*** functions with all sort of message and key parameter values. But this would take a lot of time because you would have to type a message in the encryption program, set the key, run the encryption program, paste the cipher txt into the decryption program, set the key, and then run the decryption program.
