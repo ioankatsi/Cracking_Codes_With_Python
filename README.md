@@ -47,3 +47,6 @@ Steps for decrypting the Transposition Cipher :
 
 6) ### Programming A Program to Test Your Program
 You can not be absolutely sure the programs always work unless you test the ***encryptMessage()*** and ***decryptMessage()*** functions with all sort of message and key parameter values. But this would take a lot of time because you would have to type a message in the encryption program, set the key, run the encryption program, paste the cipher txt into the decryption program, set the key, and then run the decryption program.
+
+7) ### Encrypting And Decrypting Files
+In previous examples, our programs have only worked on small messages that we type directly into the source code as string values. The cipher program we will make in this chapter will allow us to encrypt and decrypt entire files, which can be millions of characters in size.
