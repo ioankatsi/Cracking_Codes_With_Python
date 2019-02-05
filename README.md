@@ -50,3 +50,9 @@ You can not be absolutely sure the programs always work unless you test the ***e
 
 7) ### Encrypting And Decrypting Files
 In previous examples, our programs have only worked on small messages that we type directly into the source code as string values. The cipher program we will make in this chapter will allow us to encrypt and decrypt entire files, which can be millions of characters in size.
+
+8) ### Detecting English Programmatically
+Previously, we used the transposition file cipher to encrypt and decrypt entire files,
+but we haven't tried writing a brute-force program to hack the cipher yet. Messages encrypted with the transposition file cipher can have thousand of possible keys, which your computer can still easily brute-force, but you would then have to look through thousands of decryptions to find the one correct plaintext. As you can imagine, this can be a big problem, but there is a work-around.
+
+When the computer decrypts a message using the wrong key, the resulting string is garbage text instead of English text. We can program the computer to recognize when a decrypted message is English. That way, if the computer decrypts using the wrong key, it knows to go on and try the next possible key. Eventually, when the computer tries a key that decrypts to english text, it can stop and bring that key to your attention, sparing you from having to look through thousands of incorrect decryptions.
