@@ -1,4 +1,4 @@
-# Detect ENglish module
+# Detect English module
 # https://www.nostarch.com/crackingcode/ (BSD Licensed)
 
 #  To use, type this code:
