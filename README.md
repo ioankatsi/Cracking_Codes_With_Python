@@ -59,3 +59,7 @@ When the computer decrypts a message using the wrong key, the resulting string i
 
 9) ### Hacking The Transposition Cipher
 We will use a brute-force approach to hack the transposition cipher. Of the thousands of keys that could possibly be associated with the transposition cipher, the correct key should be the only one that results in legible English. Using the ***detectEnglish().py*** module we wrote in previous section, our transposition cipher hacker program will help us find the correct key.
+
+10) ### A Modular Arithmetic Module For the Affine Cipher
+We will learn about the multiplicative cipher and the affine cipher. The multiplicative cipher is similar
+to the Caesar cipher but encrypts using multiplication rather than addition. The affine cipher combines the multiplicative cipher and the Caesar cipher, resulting in a stronger and more reliable encryption.
