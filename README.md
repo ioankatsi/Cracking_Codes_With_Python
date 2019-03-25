@@ -63,3 +63,6 @@ We will use a brute-force approach to hack the transposition cipher. Of the thou
 10) ### A Modular Arithmetic Module For the Affine Cipher
 We will learn about the multiplicative cipher and the affine cipher. The multiplicative cipher is similar
 to the Caesar cipher but encrypts using multiplication rather than addition. The affine cipher combines the multiplicative cipher and the Caesar cipher, resulting in a stronger and more reliable encryption.
+
+11) ### Programming The Affine Cipher
+We will build and run programs to implement the affine cipher. Because the affine cipher cipher uses two different ciphers as part of its encryption process, it needs two keys: one for the multiplicative cipher and another for the Caesar cipher. For the affine program, we will split a single integer into two keys. 
